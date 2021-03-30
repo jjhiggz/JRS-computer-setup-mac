@@ -21,7 +21,12 @@ Fortunately, you're on a Mac which is a Unix-Based operating system. This means 
 
 
 ## Installing Homebrew
-Before we can do anything we need a package manager for your computer. Run the following command to get xcode developer tools installed. If this command doesn't run, then head to the app store and download X-Code.
+Before we can do anything we need a package manager for your computer. Run the following command to get xcode developer tools installed. 
+First we need to accept the XCode Licence by running the following command
+```sh
+sudo xcodebuild -license
+```
+If this command doesn't run, then head to the app store and download X-Code.
 
 ```sh
 xcode-select --install ; /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
