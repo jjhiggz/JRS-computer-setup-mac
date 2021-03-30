@@ -49,7 +49,7 @@ brew install git
 We can actually install multiple packages at the same time by providing multiple space-separated words after install. Run the following command to also install zsh, gmp, gnupg, sqlite, postgres.
 
 ```sh
-brew install zsh, gmp, gnupg, sqlite, postgres
+brew install zsh gmp gnupg sqlite postgres
 ```
 ## Set up zsh
 
